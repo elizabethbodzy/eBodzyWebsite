@@ -1,0 +1,391 @@
+.grid {
+	max-width: 100%;
+	/*height: 500px;*/
+	/*border: 1px solid black;*/
+	margin-left: 80px;
+	margin-right: 80px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col {
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+	/*min-height: 50px;*/
+
+	flex: 0 0 100%;
+}
+
+.col-one-third {
+	flex: 0 0 33.333333%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	/*min-height: 200px;*/
+}
+
+.col-one-fourth {
+	flex: 0 0 25%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	/*min-height: 300px;*/
+}
+
+.col-half {
+	flex: 0 0 50%;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+
+	/*min-height: 400px;*/
+}
+
+
+
+.logo {
+	width: 150px;
+	height: 150px;
+	opacity: 0.5;
+}
+
+.name {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: -85px;
+	padding-bottom: 20px;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	
+}
+
+.header {
+	text-align: center;
+	/*padding-left: 450px;
+	*/
+}
+
+.navbar {
+	text-align: center;
+}
+
+.nav {
+	display: inline-block;
+	padding-right: 30px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: grey;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.my-skills-container {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/*.container {
+
+    overflow: hidden;*/
+    /*background-color: #333;*/
+    /*font-family: Arial;
+    color: black;
+    width: 100%;*/
+    /*padding-left: 390px;*/
+    /*padding-bottom: 50px;*/
+/*}*/
+
+
+/*.container a {*/
+	/*display: inline-block;*/
+ /*   float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+/*.dropdown {
+    float: left;
+    overflow: hidden;
+}*/
+
+/*.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}*/
+
+/*.container a:hover, .dropdown:hover .dropbtn {*/
+    /*background-color: red;*/
+/*    color: grey;
+}*/
+
+/*.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}*/
+/*
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}*/
+
+.footer {
+	text-transform: uppercase;
+	font-size: 15px;
+	text-align: center;
+}
+
+/*.me {
+	width: 240px;
+	height: 300px;
+}*/
+
+img {
+	width: 100%;
+}
+
+.about {
+	text-transform: uppercase;
+	font-family: 'Work Sans', sans-serif;
+	margin-left: 20px;
+	font-size: 50px;
+
+}
+
+.resume {
+	width: 100px;
+	height: 100px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+	/*padding-left: 60px;*/
+}
+
+.my-description {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-bottom: 5px;
+}
+
+.contact {
+	/*text-align: center;*/
+	/*padding-left: 50px;*/
+	text-transform: uppercase;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	margin-left: 90px;
+}
+
+.phone {
+	width: 100px;
+	height: 100px;
+	padding-left: 400px;
+	/*padding-top: 50px;*/
+	/*display: inline-block;*/
+	/*padding-bottom: 60px;*/
+
+}
+
+.mail {
+	width: 80px;
+	height: 50px;
+	padding-left: 409px;
+	padding-top: 40px;
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.number {
+	/*padding-left: 10px;*/
+	padding-top: 20px;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	/*padding-bottom: 60px;*/
+	display: inline-block;
+
+
+}
+
+.email {
+	/*padding-left: 10px;*/
+	padding-top: 30px;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	/*padding-bottom: 20px;*/
+	/*display: inline-block;*/
+}
+
+.connect{
+	padding-left: 60px;
+	padding-top: 20px;
+
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	margin-left: 40px;
+	/*margin-bottom: 10px;*/
+}
+
+.instagram {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	margin-left: 5px;
+	/*margin-bottom: 10px;*/
+}
+
+.linkedin{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+
+}
+
+/*.linkedin {
+	width: 80px;
+	height: 80px;
+}*/
+
+
+/*.container {
+	padding-top: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+	/*padding-left: 300px;*/
+/*	padding-right: 300px;*/
+
+/*}*/
+
+.skills {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 140px;
+
+}
+
+.progress-bar {
+	background-color: grey;
+}
+
+.percent {
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	text-transform: uppercase;
+	margin-left: 110px;
+	padding-bottom: 10px;
+}
+
+.chat {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+.meet-me {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.meet-me-name {
+	text-align: center;
+}
+
+.meet-me-2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: 200;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.thesis {
+	width: 1070px;
+	height: 550px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+
+.download {
+	padding-left: 130px;
+	font-family: freight-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.mySlides {
+	width: 350px;
+	height: 300px;
+}
+
+
+
