@@ -168,9 +168,9 @@ a {
 	height: 300px;
 }*/
 
-img {
+/*img {
 	width: 100%;
-}
+}*/
 
 .about {
 	text-transform: uppercase;
@@ -385,6 +385,39 @@ img {
 .mySlides {
 	width: 350px;
 	height: 300px;
+}
+
+
+.masonry { /* Masonry container */
+    column-count: 4;
+    /*margin-bottom: 0;*/
+    /*column-gap: 0.2em;*/
+
+}
+
+.item { /* Masonry bricks or child elements */
+    /*background-color: #eee;*/
+    display: inline-block;
+    margin: 0 0 0.4em;
+    width: 100%;
+    box-sizing: border-box;
+
+    border: 1px solid grey;
+
+}
+
+.img-size {
+	width: 80%;
+	margin-left: 1.5em;
+}
+
+.img-size-small {
+	width: 60%;
+	margin-left: 3.3em;
+}
+
+.img-size-large {
+	width: 100%;
 }
 
 
